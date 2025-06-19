@@ -84,7 +84,7 @@ const TaskManager = () => {
             placeholder="Add a new task..."
             className="flex-grow px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:border-gray-600"
           />
-          <Button type="submit" variant="primary">
+          <Button type="submit" variant="primary" >
             Add Task
           </Button>
         </div>

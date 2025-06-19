@@ -1,18 +1,20 @@
-import { useState } from 'react'
-// import TaskManager from './components/TaskManager'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import News from './pages/News'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
-    <div>
+    <BrowserRouter>
       <Navbar />
-      <Home />
-      {/* <TaskManager /> */}
-      
-    </div>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path='news' element={<News />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   )
 }
 
