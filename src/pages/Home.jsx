@@ -4,8 +4,10 @@ import TaskManager from "../components/TaskManager";
 
 const Home = () => {
     return (
-        <main className="w-7xl h-screen flex  items-center justify-center gap-20">
-            <TaskManager />
+        <main className="w-full flex items-center justify-center">
+            <div className="w-7xl h-screen flex  items-center justify-center">
+                <TaskManager />
+            </div>
         </main>
     )
 }
