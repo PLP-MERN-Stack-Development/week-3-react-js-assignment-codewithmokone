@@ -6,9 +6,7 @@ This is a modern React application bootstrapped with [Vite](https://vitejs.dev/)
 
 - ⚛️ React
 - ⚡ Vite
-- 📝 TypeScript (optional, remove if not used)
-- 🎨 CSS Modules / Tailwind / SCSS (customize based on your setup)
-- ✅ ESLint + Prettier (optional)
+- 🎨 Tailwindcss
 
 ## 🚀 Getting Started
 
@@ -24,8 +22,14 @@ Ensure you have the following installed:
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/PLP-MERN-Stack-Development/week-3-react-js-assignment-codewithmokone.git
+cd week-3-react-js-assignment-codewithmokone
 npm install
 # or
 yarn
+```
+
+This will launch the app at http://localhost:5173.
+
+
+### Live link:
