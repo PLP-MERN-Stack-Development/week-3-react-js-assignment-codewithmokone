@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 function App() {
 
   return (
-    <div className='h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-300'>
+    <div className=' bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-300'>
       <BrowserRouter>
       <Navbar />
       <Routes>
